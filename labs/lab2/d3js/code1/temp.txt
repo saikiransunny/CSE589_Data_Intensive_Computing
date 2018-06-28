@@ -1,0 +1,11 @@
+name    size
+data,mr	410
+facebook,data	422
+facebook,cambridge	423
+cambridge,data	426
+cambridge,mr	427
+mr,said	458
+data,facebook	462
+cambridge,said	483
+data,cambridge	522
+data,said	575

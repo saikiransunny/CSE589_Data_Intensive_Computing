@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+  body{
+   background-image:url('black.jpg');
+   background-size:cover;
+   color:white;
+  }
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript">windows.history.forward()</script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="menu.css">
+
+  <meta charset="utf-8">
+	<title>World Cloud Visualization</title>
+
+</head>
+<body>
+<center><h1 style="font-family: 'Monoton', cursive; color:#FFEBCD; font-size:70px;" >D3 Visualization</h1></center>
+<div id='wordcloud'></div>
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="d3.layout.cloud.js"></script>
+<script type="text/javascript" src="d3wordcloud.js"></script>
+<form action="#" method="post" id="frmMyform">
+<div class=" form-group col-sm-12">
+ <div class="col-sm-offset-4 col-sm-2">
+ <font color="red"><b>Visualize:</b></font> <input id="del" type="text" name="Topic">
+ </div>
+ <div class="col-sm-1">
+ <input type="button" value="Submit" class="btn btn-success" onclick="wordcloud()">
+ </div>
+ 
+</div>
+</form>
+
+
+<p id="demo"></p>
+</body>
+</html>
